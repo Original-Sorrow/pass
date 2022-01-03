@@ -19,8 +19,8 @@ knumber = int(kol)
 snumber = int(cim)
 
 handle = open("pass.txt", "a")
-for i in range(knumber): #сколько паролей будет записано
-    handle.write(pass_generator(snumber))#кол-во символов в пароле
+for i in range(knumber): 
+    handle.write(pass_generator(snumber))
     handle.write("\n")
 handle.close()
 print ("записанно", kol ,"паролей")
